@@ -1,3 +1,7 @@
 git log: historial de los commits
 git checkout -- nombre_fichero: deja el fichero igual que el último commit
 git diff nombre_fichero: muestra las diferencias
+
+fichero .gitignore: este fichero oculta o ignora los nombres de los ficheros o directorios que estan escrito dentro
+    del .gitignore
+    
