@@ -11,6 +11,8 @@ git log: historial de los commits
 git checkout -- nombre_fichero: deja el fichero igual que el último commit
 git diff nombre_fichero: muestra las diferencias
 git branch: enseña las ramas que tiene nuestro proyecto y en cual estamos
+git branch nombre_rama:  crea una nueva rama
+git checkout -b nombre_rama: crea una nueva rama y se cambia a la rama creada
 git checkout nombre_branch: cambia de rama
 git rm nombre_fichero: borra el fichero y te hace también el "add"
 git restore --staged nombre_fichero: restaura el fichero eliminado que esta en el stage
