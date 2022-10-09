@@ -14,7 +14,8 @@ get diff --
 git branch: enseña las ramas que tiene nuestro proyecto y en cual estamos
 git checkout nombre_branch: cambia de rama
 git rm nombre_fichero: borra el fichero y te hace también el "add"
-git restore nombre_fichero: restaura el fichero eliminado que esta en el stage
+git restore --staged nombre_fichero: restaura el fichero eliminado que esta en el stage
+git restore nombre_fichero: restaura los cambios realizados en el directorio local
 
 fichero .gitignore: este fichero oculta o ignora los nombres de los ficheros o directorios que estan escrito dentro
     del .gitignore
