@@ -10,6 +10,7 @@ git status -s: informa el estado de los cambios más detalladamente
 git log: historial de los commits
 git checkout -- nombre_fichero: deja el fichero igual que el último commit
 git diff nombre_fichero: muestra las diferencias
+git diff --staged nombre_fichero: muestra las diferencias del fichero que esta en el stage
 git branch: enseña las ramas que tiene nuestro proyecto y en cual estamos
 git branch nombre_rama:  crea una nueva rama
 git checkout -b nombre_rama: crea una nueva rama y se cambia a la rama creada
@@ -19,7 +20,10 @@ git restore --staged nombre_fichero: restaura el fichero eliminado que esta en e
 git restore nombre_fichero: restaura los cambios realizados en el directorio local
 git merge nombre_rama: añade los cambios realizados a la rama principal
 git remote add origin url_github: añade el repositorio local al github
-git push -u origin main: crea la rama principal donde añadira el repositorio local
+git push -u origin main: crea la rama principal donde añadira el repositorio local. Si no funciona, debemos
+    cambiar el 'main' por master
+git push: añade las actualizaciones del repositorio local al github
+git pull: obtiene las actualizaciones del github al repositorio local
 
 fichero .gitignore: este fichero oculta o ignora los nombres de los ficheros o directorios que estan escrito dentro
     del .gitignore
