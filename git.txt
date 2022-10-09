@@ -18,3 +18,4 @@ git restore nombre_fichero: restaura los cambios realizados en el directorio loc
 
 fichero .gitignore: este fichero oculta o ignora los nombres de los ficheros o directorios que estan escrito dentro
     del .gitignore
+cat nombre_fichero: abre el contenido del fichero
