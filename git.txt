@@ -1,8 +1,19 @@
+git config --global user.name "nombre_user": configura el nombre del usurio
+git config --global user.email nombre_email: configura el email del usuario
+git config --global code.editor "code --wait": configura el editor de texto con el cual se abrirá
+git config --global -e: muestra los datos de la configuración del git
+code .: abre el repositorio en el editor de texto que configuramos
+git clone url_repositorio: clona el repositorio
+git init: inicia un nuevo repositorio en donde nos ubicamos
+git status: informa el estado de los cambios
+git status -s: informa el estado de los cambios más detalladamente
 git log: historial de los commits
 git checkout -- nombre_fichero: deja el fichero igual que el último commit
 git diff nombre_fichero: muestra las diferencias
 git branch: enseña las ramas que tiene nuestro proyecto y en cual estamos
 git checkout nombre_branch: cambia de rama
+git rm nombre_fichero: borra el fichero y te hace también el "add"
+git restore nombre_fichero: restaura el fichero eliminado que esta en el stage
 
 fichero .gitignore: este fichero oculta o ignora los nombres de los ficheros o directorios que estan escrito dentro
     del .gitignore
